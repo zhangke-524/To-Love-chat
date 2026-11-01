@@ -1,0 +1,36 @@
+# models / 推理引擎：体积太大，绝对不进仓库
+models/
+ollama/
+app/_internal/
+
+# 备份与旧版本
+*.bak-*
+*.bak
+*.old*
+*.orig
+微信版*.exe
+wechat_old*.html
+wechat_v2.html
+
+# 运行产物与日志
+*.log
+启动日志.txt
+模型日志.txt
+主动消息日志.txt
+app/data/app.lock
+app/data/state.json
+proactive_pending.json
+
+# 隐私：聊天记录、记忆（本地生成，不进仓库）
+app/data/chat_*.json
+app/data/mem_*.json
+conversations.json
+wechat_history.json
+
+# IDE / 系统
+.idea/
+.vs/
+*.suo
+*.user
+Thumbs.db
+desktop.ini
